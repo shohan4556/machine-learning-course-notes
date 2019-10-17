@@ -13,4 +13,5 @@ machine-learning-course-notes
 
 [wtfpython](https://github.com/shohans-galaxy/wtfpython)
 
+[machine learning with python](https://www.datacamp.com/tracks/machine-learning-with-python)
 
