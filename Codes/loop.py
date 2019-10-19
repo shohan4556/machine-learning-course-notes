@@ -2,8 +2,13 @@ import random as rnd
 
 price = [20,50,10,30,99,1,2,3]
 
+print(len(price))
+
+for j in range(len(price)):
+    print("iterate through the list")
+
 #loop through the list 
-for i in price:
+for i in range(10):
     print(i)
 
 print(rnd.random())
