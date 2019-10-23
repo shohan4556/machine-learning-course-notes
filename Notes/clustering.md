@@ -1,7 +1,9 @@
 **Clustering:**
 --
-Clustering is the process of grouping a set of pattern. The clustered representation of data are used in decision making. **Classification** is one of the most popular decision making paradigms. 
+Clustering is the process of grouping a set of data/objects/pattern. The clustered representation of data are used in decision making. **Classification** is one of the most popular decision making paradigms. 
 
+* Similar types of data in same clusters
+* Dissimilar types of data in other clusters 
 * Clustering can be used in unsupervised learning(unlabeled)
 * Classification can be used in supervised learning (labeled data) 
 
@@ -13,7 +15,23 @@ Clustering is the process of grouping a set of pattern. The clustered representa
 
 **Why Clustering is important ?**
 
-Clustering is necessary for decision making situation like classification, prediction etc. The number of cluster representatives obtained is smaller than the number of input patterns and so there is data reduction.
+Clustering is necessary for decision making situation like classification, prediction, finding similar pattern etc. The number of cluster representatives obtained is smaller than the number of input patterns and so there is data reduction.
 
 
+**Types of Clustering**
 
+1. Hierarchical clustering 
+
+	a. Agglomerative (bottom up) *most popular* 
+	
+	b. Divisive (top down) 
+	
+	Typical complexity : O($n^2$ $log(n))$
+	*Become very slow for large dataset*
+	
+	Output is a dendrogram representing hierarchical relationship among objects/data.
+	
+	
+**Distance measure using Squared Euclidean Distance method.** 
+
+!["Squared Euclidean Distance"](/Images/squared-euclidean.png)
