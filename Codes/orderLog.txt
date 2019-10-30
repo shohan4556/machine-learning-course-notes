@@ -1,0 +1,5 @@
+Pizza-->100
+Snaks-->200
+Pasta-->500
+Coke-->50
+Total = 850
