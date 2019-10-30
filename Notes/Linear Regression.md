@@ -11,6 +11,7 @@ For example, you can observe several employees of some company and try to unders
 **Regression formula :**
 
 !["least square method"](/Images/regression.png)
+
 We will learn to use Linear Regression by using **Least Square Method**
 
 **What is Least Square Method ?**
