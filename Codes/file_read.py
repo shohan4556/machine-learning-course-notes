@@ -8,4 +8,5 @@ def ReadFromLog():
     return logList
     
 #main function     
-main()
+def main():
+    ReadFromLog()
