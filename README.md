@@ -15,3 +15,12 @@ machine-learning-course-notes
 
 [machine learning with python](https://www.datacamp.com/tracks/machine-learning-with-python)
 
+
+***DataSet download free*** 
+
+1. [https://catalog.data.gov/dataset](https://catalog.data.gov/dataset)
+2. [BuzzFeed News Data](https://github.com/BuzzFeedNews/everything)
+3. [Fivethirtyeight](https://github.com/fivethirtyeight/data)
+4. [Kaggle](https://www.kaggle.com/datasets)
+5. [Data world](https://data.world/)
+
