@@ -11,6 +11,7 @@ plt.ylabel("population")
 plt.title("world population")
 plt.yticks([2,4,6,8,10],
           ['0B','2B','4B','6B','8B'])
-
+          
+plt.grid(True)
 # Display the plot with plt.show()
 plt.show()

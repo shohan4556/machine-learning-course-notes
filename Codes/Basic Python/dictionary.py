@@ -4,6 +4,8 @@ performances = {'Ventriloquism':'9:00am',
                 'Enchanted Elephants':'5.00pm'
                 }
 
+print(type(performances))
+
 if performances.get('showtime') == None:
     print("Performance doesn't exist")
 else : 
