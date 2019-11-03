@@ -1,4 +1,9 @@
-import pandas as pd 
+import pandas as pd
+
+# dictionary 
+# {
+# 'key':[list]
+# }
 
 allcountry = {
     'country':['brazil','india','bangladesh','south-africa'],
