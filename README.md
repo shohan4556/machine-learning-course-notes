@@ -15,8 +15,12 @@ machine-learning-course-notes
 
 [machine learning with python](https://www.datacamp.com/tracks/machine-learning-with-python)
 
+[python-for-programmers](https://www.educative.io/track/python-for-programmers)
 
-***DataSet download free*** 
+[become-ml-engineer](https://www.educative.io/track/become-ml-engineer)
+
+
+***Dataset download free*** 
 
 1. [https://catalog.data.gov/dataset](https://catalog.data.gov/dataset)
 2. [BuzzFeed News Data](https://github.com/BuzzFeedNews/everything)
