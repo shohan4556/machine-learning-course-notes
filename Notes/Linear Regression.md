@@ -22,6 +22,7 @@ We will learn to use Linear Regression by using **Least Square Method**
 !["Multiple Linear Regression"](/Images/linear-regression.png)
 
 **Formula for Simple Linear Regression**
+
 !["Simple Linear Regression"](/Images/simple-linear-regression.png)
 
 
