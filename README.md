@@ -19,6 +19,7 @@ machine-learning-course-notes
 
 [become-ml-engineer](https://www.educative.io/track/become-ml-engineer)
 
+[maths fo machine learning](https://medium.com/s/story/essential-math-for-data-science-why-and-how-e88271367fbd)
 
 ***Dataset download free*** 
 
