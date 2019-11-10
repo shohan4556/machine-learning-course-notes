@@ -15,4 +15,6 @@ allcountry = {
 #print(allcountry['country'][0])
 
 df = pd.DataFrame(allcountry)
+df.set_index('country', inplace=True)
+
 print(df)
