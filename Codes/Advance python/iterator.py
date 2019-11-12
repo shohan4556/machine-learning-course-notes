@@ -17,4 +17,7 @@ print(next(superhero))
 # Create an iterator for range(10 ** 100): googol
 googol = iter(range(10 ** 100)) #since the number is so large it wil exceed memory 
 
+#tt = list(iter(range(10 ** 100)))
+#print(tt)
+
 print('iter',next(googol))
