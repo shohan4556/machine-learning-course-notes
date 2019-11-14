@@ -2,6 +2,7 @@
 # generator does not creates list instead creates generator objects 
 
 # Create list comprehension: squares
+# list comprehension
 squares = [i **2 for i in range(0,10)]
 print(squares)
 
@@ -20,7 +21,9 @@ print(new_fellowship)
 lannister = ['cersei', 'jaime', 'tywin', 'tyrion', 'joffrey']
 
 # Create a generator object: lengths
+# generator 
 lengths =(len(person) for person in lannister)
+print(type(lengths))
 
 # Iterate over and print the values in lengths
 for value in lengths:
