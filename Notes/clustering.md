@@ -22,7 +22,7 @@ Clustering is necessary for decision making situation like classification, predi
 
 1. Hierarchical clustering 
 
-	a. Agglomerative (bottom up) *most popular* 
+	a. Agglomerative (bottom up/hierarchical) *most popular* 
 	
 	b. Divisive (top down) 
 	
@@ -32,6 +32,23 @@ Clustering is necessary for decision making situation like classification, predi
 	Output is a dendrogram representing hierarchical relationship among objects/data.
 	
 	
-**Distance measure using Squared Euclidean Distance method.** 
+**To Calculate the distance between two cluster we use two algorithm.** 
 
-!["Squared Euclidean Distance"](/Images/squared-euclidean.png)
+   * **Single Linkage algorithm** : The single linkage algorithm is obtained by
+    defining the distance between two cluster to be the smallest distance between two points such that one point is in each cluster. If $Ci$ and 
+	$Cj$ are clusters the distance between them is defnied as 
+
+
+	!["Single Linkage"](/Images/single-linkage.png)
+	
+	
+	we can achieve the distance by using **Squared Euclidean Distance** method.
+
+	!["Squared Euclidean Distance"](/Images/squared-euclidean.png)
+
+   * **Complete Linkage algorithm** : The Complete Linkage algorithm is also called maximum method or the **farest neighbor method**. Simply calculate the largest distance between two point(a,b) where each points belongs to $Ci$ and $Cj$ cluster. 
+
+	!["Complete Linkage"](/Images/complete-linkage.png)
+
+
+
