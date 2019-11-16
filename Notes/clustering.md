@@ -38,17 +38,17 @@ Clustering is necessary for decision making situation like classification, predi
     defining the distance between two cluster to be the smallest distance between two points such that one point is in each cluster. If $Ci$ and 
 	$Cj$ are clusters the distance between them is defnied as 
 
-
-	!["Single Linkage"](/Images/single-linkage.png)
+!["Single Linkage"](/Images/single-linkage.png)
 	
 	
-	we can achieve the distance by using **Squared Euclidean Distance** method.
+we can achieve the distance by using **Squared Euclidean Distance** method.
 
-	!["Squared Euclidean Distance"](/Images/squared-euclidean.png)
+!["Squared Euclidean Distance"](/Images/squared-euclidean.png)
+	
 
    * **Complete Linkage algorithm** : The Complete Linkage algorithm is also called maximum method or the **farest neighbor method**. Simply calculate the largest distance between two point(a,b) where each points belongs to $Ci$ and $Cj$ cluster. 
 
-	!["Complete Linkage"](/Images/complete-linkage.png)
+!["Complete Linkage"](/Images/complete-linkage.png)
 
 
 
