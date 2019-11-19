@@ -13,4 +13,4 @@ EDA may time consuming but you should do it at first then jump into hypothesis.
 
 *ylabel = n*
 
-> It sort the data, gives a overview of data. How whole features are distributed across the data. 
+> The ECDF essentially allows you to plot a feature of your data in order from least to greatest and see the whole feature as if is distributed across the data set. It gives a overview of data.
