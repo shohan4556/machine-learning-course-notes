@@ -15,6 +15,10 @@ allcountry = {
 #print(allcountry['country'][0])
 
 df = pd.DataFrame(allcountry)
+
+#rename columns 
+df = df.rename(columns={'capital':'AAA'})
+
 df.set_index('country', inplace=True)
 
 print(df)
