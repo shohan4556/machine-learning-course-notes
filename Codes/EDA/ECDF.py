@@ -21,6 +21,7 @@ def main():
     
     x_vers, y_vers = ecdf(versi_color_petal)
     plt.plot(x_vers,y_vers, marker='.', linestyle = 'none')
+    # can multiple ecdf on the same plot and compare
 
     plt.xlabel('petal length')
     plt.ylabel('ECDF')
