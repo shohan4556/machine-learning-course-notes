@@ -29,3 +29,18 @@ EDA may time consuming but you should do it at first then jump into hypothesis.
 
 > It used to get an idea about the spread of the data
 
+
+**Covariance**: A measure how two quantities vary togeather. If **x** and **y** both below their 
+respective means then the covariance is positive (positively correlated) otherwise negative.
+
+
+![Covariance](/Images/covariance.png)
+
+**Pearson Correlation Coefficient :** It measures the strength between variables and relationships. It is dimensionless and range from **-1 (complete anticorrelation) to 1 (complete correlation)**. Value **0** means there are no correlation at all.
+
+
+![Pearson Correlation](/Images/pearson-correlation.png)
+
+
+![Pearson Correlation](/Images/pearson-correlation_1.png)
+

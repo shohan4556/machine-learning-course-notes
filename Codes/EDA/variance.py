@@ -19,3 +19,8 @@ variance_np = np.var(versicolor_petal_length)
 
 # Print the results
 print(variance_explicit, variance_np)
+
+standard_dev_exp = np.sqrt(variance_explicit)
+standard_dev_np = np.std(versicolor_petal_length)
+
+print(standard_dev_exp, standard_dev_np)
