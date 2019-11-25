@@ -21,7 +21,7 @@ EDA may time consuming but you should do it at first then jump into hypothesis.
 
 **Meidan** : The middile point of the data/dataset
 
-**Variance** : Variance means a measurement of the spread of the data. Variance is the average of the squared distance from the mean. To calculate variance, for each data point **xi** we squre the distacne from the **mean** then take the average of the all of these values. 
+**Variance** : Variance means a measurement of the spread of the data. Variance is the *average* of the *squared distance* from the *mean*. To calculate variance, for each data point **xi** we squre the distacne from the **mean** then take the average of the all of these values. 
 
 ![Variance](/Images/variance.png)
 
