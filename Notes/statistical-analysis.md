@@ -7,7 +7,7 @@ The process of organizing, ploting and summerizing in a dataset.
 
 EDA may time consuming but you should do it at first then jump into hypothesis.  
 
-**ECDF** :  *This empirical cumulative distribution function* is a step function that jumps up by 1/n at each of the n data points. Its value at any specified value of the measured variable is the fraction of observations of the measured variable that are less than or equal to the specified value.
+**Empirical cumulative distribution function(ECDF)** : ECDF is a step function that jumps up by 1/n at each of the n data points. Its value at any specified value of the measured variable is the fraction of observations of the measured variable that are less than or equal to the specified value.
 
 *xlabel = sort(n)*
 
@@ -43,4 +43,13 @@ respective means then the covariance is positive (positively correlated) otherwi
 
 
 ![Pearson Correlation](/Images/pearson-correlation_1.png)
+
+
+
+**Binomial Distribution/Probability:** Binomial distribution can be thought of as simply the probability of a SUCCESS or FAILURE outcome in an experiment or survey that is repeated multiple times. for example,
+*A coin is tossed 10 times. What is the probability of getting exactly 6 heads?*
+
+![Binomial Distribution](/Images/binomial-probability.jpg)
+
+
 
