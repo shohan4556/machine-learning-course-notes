@@ -64,5 +64,10 @@ answer = 0.38885, or 38%.
 
 ![Binomial Distribution](/Images/binomial-probability.jpg)
 
+**Poisson Distribution :** Poisson distribution is a statistical distribution that shows how many times an event is likely to occur within a specified period of time. It is used for independent events which occur at a constant rate within a given interval of time. 
+
+> Poisson distribution is used to describe the distribution of **rare** events in a large dataset. 
+
+`numpy.random.poisson(mean number of success, range)`
 
 
