@@ -71,3 +71,5 @@ answer = 0.38885, or 38%.
 `numpy.random.poisson(mean number of success, range)`
 
 
+**Probability Density Function (PDF):** PDF defines a probability distribution for a **continuous** random variable as opposed to a discrete random variable.
+
