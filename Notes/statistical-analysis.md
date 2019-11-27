@@ -49,6 +49,19 @@ respective means then the covariance is positive (positively correlated) otherwi
 **Binomial Distribution/Probability:** Binomial distribution can be thought of as simply the probability of a SUCCESS or FAILURE outcome in an experiment or survey that is repeated multiple times. for example,
 *A coin is tossed 10 times. What is the probability of getting exactly 6 heads?*
 
+> A real world example. *A company drills 9 wild-cat oil exploration wells, each with an estimated probability of success of 0.1. All nine wells fail. What is the probability of that happening?*
+
+
+```
+Let’s do 20,000 trials of the model, and count the number that generate zero positive results.
+
+sum(np.random.binomial(9, 0.1, 20000) == 0)/20000.
+
+answer = 0.38885, or 38%.
+
+```
+
+
 ![Binomial Distribution](/Images/binomial-probability.jpg)
 
 
