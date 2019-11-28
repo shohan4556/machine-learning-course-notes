@@ -85,8 +85,10 @@ describe where the center of the peak is and **standard deviation** describe how
 mean = numpy.mean(speed_of_light)
 std = numpy.std(speed_of_light)
 samples = numpy.random.normal(mean, std, size=10000)
-x,y = ecdf(speed_of_light)
 x_n, y_n = ecdf(samples)
+
+x,y = ecdf(speed_of_light)
+
 
 #plot the theoritical and empirical cdf on the same plot
 pyplot.plot(x,y)

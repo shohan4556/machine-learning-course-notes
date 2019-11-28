@@ -1,22 +1,11 @@
-# Draw 100000 samples from Normal distribution with stds of interest: samples_std1, samples_std3, samples_std10
 import matplotlib.pyplot as plt
 import numpy as np
+from Codes.EDA.ECDF import ecdf
 
 samples_std1 = np.random.normal(20, 1, size=100000)
 samples_std3 = np.random.normal(20, 3, size=100000)
 samples_std10 = np.random.normal(20, 10, size=100000)
 
-# Make histograms
-plt.hist(samples_std1, bins=100, normed = True, histtype = 'step')
-plt.hist(samples_std3,bins=100, normed = True, histtype = 'step')
-plt.hist(samples_std10, bins=100,normed = True, histtype = 'step')
-
-# Make a legend, set limits and show plot
-plt.legend(('std = 1', 'std = 3', 'std = 10'))
-plt.ylim(-0.01, 0.42)
-plt.show()
-
-'''
 # Generate CDFs
 x_std1, y_std1 = ecdf(samples_std1)
 x_std3, y_std3 = ecdf(samples_std3)
@@ -30,4 +19,3 @@ plt.plot(x_std10, y_std10, marker='.', linestyle='none')
 # Make a legend and show the plot
 plt.legend(('std = 1', 'std = 3', 'std = 10'), loc='lower right')
 plt.show()
-'''
