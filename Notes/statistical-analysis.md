@@ -76,7 +76,7 @@ numpy.random.poisson(mean number of success, range)
 **Probability Density Function (PDF):** PDF describe a chance of observing a value of a **continous** variable. 
 
 **Normal Distribution/Gaussian Distribution :** Normal distribution is a probability distribution. It describe **continous** variable whose
-PDF has a single symmetric peak. Normal distribution parameterized by two parameters, **mean**
+PDF has a single **symmetric peak**. Normal distribution parameterized by two parameters, **mean**
 describe where the center of the peak is and **standard deviation** describe how spread out data are.
 
 
