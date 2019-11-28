@@ -68,7 +68,9 @@ answer = 0.38885, or 38%.
 
 > Poisson distribution is used to describe the distribution of **rare** events in a large dataset. 
 
-`numpy.random.poisson(mean number of success, range)`
+```
+numpy.random.poisson(mean number of success, range)
+```
 
 
 **Probability Density Function (PDF):** PDF describe a chance of observing a value of a **continous** variable. 
@@ -95,4 +97,16 @@ pyplot.plot(x,y)
 pyplot(x_n,y_n)
 pyplot.show()
 ```
+
+**Exponential Distribution :** The waiting between arrivals of a poisson porcess is exponentially distributed. It has only single parameter the **mean waiting time**. It is used for **continous** distribution. The Exponential distribution describes the waiting times between rare events
+
+> Example : The time between all neuclear incidents involving neuclear power since 1974.
+
+```
+mean = mean(inter_times)
+samples = exponential(mean, size=10000)
+x,y = ecdf(samples)
+plot(x,y)
+```
+
 
