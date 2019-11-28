@@ -1,4 +1,4 @@
-**Exploratory Data Analysis :**
+**Exploratory Data Analysis & Statistics :**
 ======
 The process of organizing, ploting and summerizing in a dataset. 
 > **Data Talks**
@@ -71,5 +71,26 @@ answer = 0.38885, or 38%.
 `numpy.random.poisson(mean number of success, range)`
 
 
-**Probability Density Function (PDF):** PDF defines a probability distribution for a **continuous** random variable as opposed to a discrete random variable.
+**Probability Density Function (PDF):** PDF describe a chance of observing a value of a **continous** variable. 
+
+**Normal Probability Distribution :** Normal distribution describe **continous** variable whose
+PDF has a single symmetric peak. Normal distribution parameterized by two parameters, **mean**
+describe where the center of the peak is and **standard deviation** describe how spread out data are.
+
+
+![Normal Probability Distribution](/Images/normal-distribution.png)
+
+
+``` 
+mean = numpy.mean(speed_of_light)
+std = numpy.std(speed_of_light)
+samples = numpy.random.normal(mean, std, size=10000)
+x,y = ecdf(speed_of_light)
+x_n, y_n = ecdf(samples)
+
+#plot the theoritical and empirical cdf on the same plot
+pyplot.plot(x,y)
+pyplot(x_n,y_n)
+pyplot.show()
+```
 
