@@ -73,7 +73,7 @@ answer = 0.38885, or 38%.
 
 **Probability Density Function (PDF):** PDF describe a chance of observing a value of a **continous** variable. 
 
-**Normal Probability Distribution :** Normal distribution describe **continous** variable whose
+**Normal Distribution/Gaussian Distribution :** Normal distribution is a probability distribution. It describe **continous** variable whose
 PDF has a single symmetric peak. Normal distribution parameterized by two parameters, **mean**
 describe where the center of the peak is and **standard deviation** describe how spread out data are.
 
