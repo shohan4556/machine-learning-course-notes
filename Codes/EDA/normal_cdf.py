@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from Codes.EDA.ECDF import ecdf
+from ECDF import ecdf
 
 samples_std1 = np.random.normal(20, 1, size=100000)
 samples_std3 = np.random.normal(20, 3, size=100000)
