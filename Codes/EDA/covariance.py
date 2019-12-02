@@ -14,9 +14,10 @@ covariance_matrix = np.cov(versicolor_petal_length, versicolor_petal_width)
 
 # pearson cooef
 corr_mat = np.corrcoef(versicolor_petal_length, versicolor_petal_width)
-print('pearson coefficient',corr_mat[0,1])
+#print('pearson coefficient',corr_mat[0,1])
 
 plt.plot(versicolor_petal_length, versicolor_petal_width, marker='.', linestyle='none')
+plt.text(3,1,corr_mat[0,1],fontsize=12)
 plt.xlabel('petal length')
 plt.ylabel('petal width')
 plt.show()
