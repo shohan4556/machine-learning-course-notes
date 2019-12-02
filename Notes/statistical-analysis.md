@@ -87,15 +87,7 @@ describe where the center of the peak is and **standard deviation** describe how
 mean = numpy.mean(speed_of_light)
 std = numpy.std(speed_of_light)
 samples = numpy.random.normal(mean, std, size=10000)
-x_n, y_n = ecdf(samples)
-
-x,y = ecdf(speed_of_light)
-
-
-#plot the theoritical and empirical cdf on the same plot
-pyplot.plot(x,y)
-pyplot(x_n,y_n)
-pyplot.show()
+plot.hist(samples, bins=100, density = True, histtype = 'step')
 ```
 
 **Exponential Distribution :** The waiting between arrivals of a poisson porcess is exponentially distributed. It has only single parameter the **mean waiting time**. It is used for **continous** distribution. The Exponential distribution describes the waiting times between rare events
