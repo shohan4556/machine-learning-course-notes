@@ -11,4 +11,5 @@ we will use **K-Nearest Neighbor** algorithm for classification.
   (the “k” is the number of neighbors it checks).
 
 
-  ![KNN](/Images/knn.jpg)
+<img src="/Images/knn.jpg" alt="drawing" width="500"/>
+ 
