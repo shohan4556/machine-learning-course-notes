@@ -19,6 +19,8 @@ knn = KNeighborsClassifier(n_neighbors=6)
 knn.fit(X,y)
 
 # then predict for new data
+# Predict and print the label for the new data point X_new
+new_prediction = knn.predict(X_new)
 
 """
 
