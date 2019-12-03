@@ -12,4 +12,9 @@ we will use **K-Nearest Neighbor** algorithm for classification.
 
 
 <img src="/Images/knn.jpg" alt="drawing" width="500"/>
+
+Depends on *K* the model could be **overfit** or **underfit**.
+
+<img src="/Images/K-NN.png" alt="drawing" width="500"/>
+
  
