@@ -17,4 +17,8 @@ Depends on *K* the model could be **overfit** or **underfit**.
 
 <img src="/Images/K-NN.png" alt="drawing" width="500"/>
 
+
+**Overfitting :** Overfitting is the case where the overall cost is really small, but the generalization of the model is unreliable. This is due to the model learning **“too much”** from the training data set.
+
+**Underfitting :** Underfitting is the case where the model has **“not learned enough”** from the training data, resulting in low generalization and unreliable predictions.
  
