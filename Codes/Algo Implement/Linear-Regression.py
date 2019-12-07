@@ -32,7 +32,7 @@ reg.fit(X_train, y_train)
 y_pred = reg.predict(X_test)
 
 # Print R^2 
-print(reg.score(X_fertility, y_life))
+print('Score :',reg.score(X_fertility, y_life))
 
 # print root mean square error of cost function 
 # average squared difference between the estimated values and the actual value
