@@ -33,4 +33,13 @@ We will learn to use Linear Regression by using **Least Square Method**
 !["Residual"](/Images/residual.png)
 
 
+**K-Fold Cross Validation:** K-Fold CV is a resampling method used to calculate accuracy of a model more confidently.
+
+> By using Cross-Validation, we are able to get more metrics and draw important conclusion both about our model and our data.
+
+
+!["Residual"](/Images/k-fold-cv.png)
+
+
+
 *[Important Link](https://www.mathsisfun.com/data/least-squares-regression.html)*
