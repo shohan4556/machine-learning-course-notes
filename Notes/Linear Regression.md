@@ -30,5 +30,7 @@ We will learn to use Linear Regression by using **Least Square Method**
 > Residuals points is the difference between predicted response and actual response. Regression is about determining the smallest residuals.
 
 
+!["Residual"](/Images/residual.png)
+
 
 *[Important Link](https://www.mathsisfun.com/data/least-squares-regression.html)*
