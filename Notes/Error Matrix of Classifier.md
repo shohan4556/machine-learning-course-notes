@@ -35,3 +35,9 @@ y_pred = knn.predict(X_test)
 print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
 ```
+
+
+**ROC Curve:** The ROC curve is created by plotting the true positive rate aganist the false positive rate for various threshold. ROC curve used to determine the best threshold for a logistic regression. True positive rate is also know as 
+Recall.
+
+> Larger area under the ROC curve is better model  
