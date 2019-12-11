@@ -31,14 +31,14 @@ y_pred = logreg.predict(X_test)
 print(confusion_matrix(y_test, y_pred).ravel())
 print(classification_report(y_test, y_pred))
 
-'''
-
 # Compute predicted probabilities: y_pred_prob
 y_pred_prob = logreg.predict_proba(X_test)[:,1]
 
 # Compute and print AUC score
 print("AUC: {}".format(roc_auc_score(y_test,y_pred_prob)))
 
+
+'''
 # Compute cross-validated AUC scores: cv_auc
 cv_auc = cross_val_score(logreg, X,y, cv=5, scoring='roc_auc')
 
