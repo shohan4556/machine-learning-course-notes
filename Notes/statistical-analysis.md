@@ -21,6 +21,13 @@ EDA may time consuming but you should do it at first then jump into hypothesis.
 
 **Meidan** : The middile point of the data/dataset
 
+**Bias:** Bias is the accuracy of a model predictions. **there are Bias vs Variance tradeoff** .
+
+- High Bias results **Underfitting** but **low** variance
+- Low Bias result **Overfitting** but **high** variance
+
+![bias vs variance](https://www.kdnuggets.com/wp-content/uploads/machine-learning-bias.png)
+
 **Variance** : Variance means a measurement of the spread of the data. Variance is the *average* of the *squared distance* from the *mean*. To calculate variance, for each data point **xi** we square the distacne from the **mean** then take the average of the all of these values. 
 
 ![Variance](/Images/variance.png)
@@ -100,5 +107,3 @@ samples = exponential(mean, size=10000)
 x,y = ecdf(samples)
 plot(x,y)
 ```
-
-
