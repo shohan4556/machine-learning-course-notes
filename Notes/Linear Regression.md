@@ -42,7 +42,7 @@ We will learn to use Linear Regression by using **Least Square Method**
 
 **Regularized Regression:** Regularized regression is the way of preventing model's overfitting or underfitting which may result from simple linear regression.
 
-* **Ridge Regression:** Ridge regression is a technique that is implemented by adding bias to a **multilinear regression** model to expect a much accurate regression with tested data at a cost of losing accuracy for the training data.
+* **Ridge Regression:** Ridge regression is a technique that is implemented by adding bias to a **linear regression** model to expect a much accurate regression with tested data at a cost of losing accuracy for the training data.
 
 > model evaluation should be based on new data (testing set), not given data (training set)
 
