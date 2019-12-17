@@ -14,5 +14,13 @@ df_region = pd.get_dummies(df, drop_first=True)
 
 **Normalize Data:** Data should be normalized before train. 
 
-* Standardization : subtract the mean and devide by the variance so that all fratures are centered around 0 and variance 1.
+* Standardization : subtract the mean and devide by the variance so that all features are centered around 0 and variance 1.
 
+```
+steps = [('scaler', StandardScaler()),
+        ('knn', KNeighborsClassifier())]
+        
+pipeline = Pipeline(steps)
+knn_scaled = pipeline.fit(X_train, y_train)
+knn_scaled.score(X_test, y_test)
+```
