@@ -12,7 +12,7 @@ df_region = pd.get_dummies(df, drop_first=True)
 **Imputing:** Replace missing value with educative guess or drop the row of missing value.   
 
 
-**Normalize Data:** Data should be normalized before train. 
+**Normalize Data:** Data should be normalied before training. Normalized data could increase accuracy.
 
 * Standardization : subtract the mean and devide by the variance so that all features are centered around 0 and variance 1.
 
