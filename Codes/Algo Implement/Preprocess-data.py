@@ -1,6 +1,9 @@
 import pandas as pd 
 import matplotlib.pyplot as plt 
 import numpy as np 
+from sklearn.preprocessing import Imputer 
+from sklearn.linear_model import LogisticRegression 
+from sklearn.pipeline import Pipeline
 
 df = pd.read_csv('Codes/Algo Implement/gm_2008_region.csv', index_col=0)
 
@@ -24,4 +27,20 @@ print(voteDF.isnull().sum())
 voteDF = voteDF.dropna()
 
 print(voteDF.head())
+
+
+#replace missing value with educative guess 
+imp = Imputer(missing_values='NaN', strategy='mean', axis=0)
+logreg = LogisticRegression()
+steps = [('deal-missing-value', imp),
+        ('classify model', logreg)]
+
+#create pipeline 
+pipeline = Pipeline(steps)
+
+#pipeline.fit(X_train, y_train)
+#y_pred = pipeline.predict(X_test)
+
+
+
 
