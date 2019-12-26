@@ -21,6 +21,8 @@ machine-learning-course-notes
 
 [maths fo machine learning](https://medium.com/s/story/essential-math-for-data-science-why-and-how-e88271367fbd)
 
+**[machine-learning-course](https://github.com/machinelearningmindset/machine-learning-course)**
+
 ***Dataset download free*** 
 
 1. [https://catalog.data.gov/dataset](https://catalog.data.gov/dataset)
