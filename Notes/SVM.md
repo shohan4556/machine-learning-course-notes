@@ -5,7 +5,7 @@
 SVM try to find a line or hyperplane to divide a dimensional space which best classifies the data points and also maintain the 
 **maximum margin** between the data points. 
 
-
+**Kernel Trick :** SVM can classify **non linearly seprable** data using a trick called **kernel trick** 
 
 **Pros & Cons of SVM:**
 ---
