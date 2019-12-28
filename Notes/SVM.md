@@ -16,8 +16,8 @@ SVM try to find a line or hyperplane to divide a dimensional space which best cl
 **Support Vector:**  Datapoints that are closest to the hyperplane is called support vectors. Separating line will be defined with the help of these data points.
 
 
-**Kernel Trick :** SVM can classify **non linearly seprable** data using a trick called **kernel trick** 
-kernel trick converts non-separable data into separable data by **adding more dimensions to it**. It makes SVM more powerful, flexible and accurate. 
+**Kernel Trick :** SVM can classify **non-linearly seprable** data using a trick called **kernel trick**. 
+kernel trick converts non-linearly seprable data into linearly separable data by **adding more dimensions to it**. It makes SVM more powerful, flexible and accurate. 
 
 **Before Kernel Trick:**
 !["SVM"](/Images/SVM_Kernal.png)
