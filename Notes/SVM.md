@@ -28,19 +28,19 @@ kernel trick converts non-separable data into separable data by **adding more di
 
 The following are some of the types of kernels used by SVM: 
 
-1. Linear Kernel : It can be used as a dot product between any two observations. The formula of linear kernel is as below −
+1. **Linear Kernel :** It can be used as a dot product between any two observations. The formula of linear kernel is as below −
 
     > K(x,xi)=sum(x∗xi)
 
     From the above formula, we can see that the product between two vectors say 𝑥 & 𝑥𝑖 is the sum of the multiplication of each pair of input values
 
-2. Polynomial Kernel : It is more generalized form of linear kernel and distinguish curved or nonlinear input space. Following is the formula for polynomial kernel −
+2. **Polynomial Kernel :** It is more generalized form of linear kernel and distinguish curved or nonlinear input space. Following is the formula for polynomial kernel −
 
     >k(X,Xi)=1+sum(X∗Xi)^d
 
     Here d is the degree of polynomial, which we need to specify manually in the learning algorithm.
 
-3. Radial Basis Function (RBF) Kernel : RBF kernel, mostly used in SVM classification, maps input space in indefinite dimensional space. Following formula explains it mathematically −
+3. **Radial Basis Function (RBF) Kernel :** RBF kernel, mostly used in SVM classification, maps input space in indefinite dimensional space. Following formula explains it mathematically −
 
     >K(x,xi)=exp(−gamma∗sum(x−xi^2))   
 
