@@ -58,7 +58,7 @@ The pros to SVM's:
 The cons to SVM's:
 
 1. Performs poorly when there is a large data set, the training times are longer.
-2. Performs badly when the classes are overlapping, i.e. non-separable data points.
+2. Performs badly when the classes are **overlapping**(*use naive-bayes*), i.e. non-separable data points.
 
 
 
