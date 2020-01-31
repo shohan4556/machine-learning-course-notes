@@ -1,9 +1,14 @@
 # machine-learning-course-notes
 machine-learning-course-notes
 
-
+## cheasheet
+-----
+* [Jupyter notebook](cheatsheet/jupyter.pdf)
+* [Numpy](cheatsheet/numpy.pdf)
+* [Scikit learn](cheatsheet/scikitlearn.pdf)
 
 ***Resources*** 
+------
 
 [100 days of machine learning](https://github.com/Avik-Jain/100-Days-Of-ML-Code)
 
