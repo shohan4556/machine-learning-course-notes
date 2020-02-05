@@ -1,7 +1,7 @@
 # machine-learning-course-notes
 machine-learning-course-notes
 
-## cheasheet
+## cheatsheet
 -----
 * [Jupyter notebook](cheatsheet/jupyter.pdf)
 * [Numpy](cheatsheet/numpy.pdf)
