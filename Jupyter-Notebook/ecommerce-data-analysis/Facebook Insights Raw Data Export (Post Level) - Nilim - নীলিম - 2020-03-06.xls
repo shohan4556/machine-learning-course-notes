@@ -1,0 +1,2640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                      <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+                       xmlns:x="urn:schemas-microsoft-com:office:excel"
+                       xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+                       xmlns:html="http://www.w3.org/TR/REC-html40">
+                      <Styles>
+                        <Style ss:ID="s17">
+                          <NumberFormat ss:Format="m/d/yy"/>
+                          <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s18">
+                          <NumberFormat ss:Format="m/d/yy"/>
+                          <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s19">
+                          <NumberFormat ss:Format="m/yy"/>
+                          <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s20">
+                          <NumberFormat ss:Format="m/yy"/>
+                          <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s21">
+                          <NumberFormat ss:Format="m/d/yy h:mm AM/PM"/>
+                          <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s22">
+                          <NumberFormat ss:Format="m/d/yy h:mm AM/PM"/>
+                          <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s23">
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s24">
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s25">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s26">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s27">
+                         <NumberFormat ss:Format="0"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s28">
+                         <NumberFormat ss:Format="0"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s29">
+                         <NumberFormat ss:Format="_(&quot;$&quot;* #,##0.00_);_(&quot;$&quot;* (#,##0.00);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s30">
+                         <NumberFormat ss:Format="_(&quot;$&quot;* #,##0.00_);_(&quot;$&quot;* (#,##0.00);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s31">
+                         <NumberFormat ss:Format="Percent"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s32">
+                         <NumberFormat ss:Format="Percent"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s33">
+                         <NumberFormat ss:Format="YYYY-mm-dd"/>
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                        </Style>
+                        <Style ss:ID="s34">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s35">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s36">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                      </Styles>
+<Worksheet ss:Name="Key Metrics">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="13" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="14" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="15" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="16" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="17" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="18" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="19" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="20" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="21" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="22" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="23" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="24" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="25" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="26" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="27" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="28" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="29" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="30" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="31" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="32" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="33" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="34" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post ID</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Permalink</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post Message</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Countries</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Languages</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Posted</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Audience Targeting</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Post Total Reach</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Post organic reach</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Post Paid Reach</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Post Total Impressions</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Post Organic Impressions</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Post Paid Impressions</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Engaged Users</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Matched Audience Targeting Consumers on Post</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Matched Audience Targeting Consumptions on Post</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Negative Feedback from Users</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Negative Feedback</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Post Impressions by people who have liked your Page</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Post reach by people who like your Page</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Post Paid Impressions by people who have liked your Page</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Paid reach of a post by people who like your Page</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime People who have liked your Page and engaged with your post</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Organic views to 95%</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Organic views to 95%</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Paid views to 95%</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Paid views to 95%</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Organic Video Views</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Organic Video Views</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Paid Video Views</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Paid Video Views</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Average time video viewed</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Lifetime Video length</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who had your Page's post enter their screen. Posts include statuses, photos, links, videos and more. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who had your Page's post enter their screen through unpaid distribution. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who had your Page's post enter their screen through paid distribution such as an ad. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of times your Page's post entered a person's screen. Posts include statuses, photos, links, videos and more. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of times your Page's posts entered a person's screen through unpaid distribution. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of times your Page's post entered a person's screen through paid distribution such as an ad. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of unique people who engaged in certain ways with your Page post, for example by commenting on, liking, sharing, or clicking upon particular elements of the post. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who matched the audience targeting that clicked anywhere in your post on News Feed. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who have given negative feedback to your post. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of times people have given negative feedback to your post. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of impressions of your Page post to people who have liked your Page. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who saw your Page post because they've liked your Page (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of paid impressions of your Page post to people who have liked your Page. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who like your Page and who saw your Page post in an ad or sponsored story. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who have liked your Page and clicked anywhere in your posts. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Number of times your video was viewed to 95% of its length without any paid promotion. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Number of times your video was viewed to 95% of its length without any paid promotion. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Number of times your video was viewed to 95% of its length after paid promotion. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Number of times your video was viewed to 95% of its length after paid promotion. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Number of times your video was viewed for more than 3 seconds without any paid promotion. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Number of times your video was viewed for more than 3 seconds without any paid promotion. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Number of times your video was viewed more than 3 seconds after paid promotion. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Number of times your video was viewed more than 3 seconds after paid promotion. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Average time video viewed (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: Length of a video post (Total Count)</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505757073706246</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505757073706246</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T20:56:50.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">167</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">167</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">170</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">170</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">167</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">163</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505311190417501</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505311190417501</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T05:01:45.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">284</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">284</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">293</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">292</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">23</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">288</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">278</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">22</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505303583751595</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505303583751595</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবিটি পাঠিয়েছেন সিয়াম মাহমুদ ভাইয়া। শুভকামনা রইল &lt;3 
+
+অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T04:51:48.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">375</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">375</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">377</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">377</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">23</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">14</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">15</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">371</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">368</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">22</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503197143962239</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503197143962239</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; এই কিউট টেবিলটপ ক্যাকটাস  প্যাকেজ অনেক আপু আমাদের কাছ থেকে নিয়েছে, গিফট দেয়ার জন্য। আপনাদের সুবিধার কথা ভেবে আমরা প্রাইস একদম হাতের নাগালে রেখেছি :) 
+
+&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T04:26:58.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">538</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">538</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">564</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">564</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">34</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">478</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">453</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">31</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503188057296481</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503188057296481</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">টেবিল টপ প্ল্যানটার পট প্যাকেজ
+আইডিঃ TTP0101
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T04:11:12.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">453</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">453</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">469</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">469</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">28</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">15</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">17</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">446</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">429</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">26</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503175730631047</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503175730631047</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; অনেকেই আমাদের জানিয়েছেন সিডামের প্রাইস ১০০ টাকা হলে নিতে পারেন, যেহেতু আপনাদের মতামতকে আমরা সর্বোচ্চ গুরুত্ব দেই। তাই সিডামের প্রাইস এখন মাত্র ৯৯ টাকা ! :) 
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T03:48:10.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1119</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1119</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1151</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1151</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">161</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">125</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">165</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1073</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1054</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">159</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_502589394023014</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/502589394023014</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-02T06:13:07.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">525</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">525</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">555</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">555</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">37</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">21</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">28</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">504</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">478</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">34</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_502003717414915</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/502003717414915</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-01T08:31:25.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">636</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">636</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">666</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">666</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">69</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">46</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">626</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">600</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">67</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_501203940828226</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/501203940828226</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">প্রানের বই মেলা শেষ হয়ে গেলো, এরই সাথে শেষ হয়ে গেলো  আমাদের পুরো ফেব্রুয়ারি জুড়ে চলমান অফার !। আপনাদের 
+জন্য রইল নীলিম টিমের পক্ষ থেকে অসংখ্য ভালোবাসা &lt;3  
+
+পুরো ফেব্রুয়ারি মাস জুড়ে আমাদের একমাত্র লক্ষ্য ছিল আপনাদের হাতে একদম মিনিমাম প্রাইসে আমাদের প্রোডাক্টগুলো পৌঁছে দেয়া। 
+
+এই মাসের একটা ঘটনা আপনাদের বলতে চাই, আরেফা আপুর প্রোডাক্টগুলো ডেলিভারি দিতে হবে পিলখানা ৯ টার মধ্যে, সেখান থেকে প্রোডাক্টগুলো চুয়াডাঙ্গা যাবে। যেহেতু আমাদের ডেল্ভিয়ারি ম্যান প্রোডাক্ট পিক করে  ১১ টার পর আর আমাদের টিমমেম্বার দেরও ওত সকালে বিরক্ত করতে ইচ্ছে হয় নাই তাই আমি নিজেই প্রোডাক্ট গুলো নিয়ে, ২০০ টাকা পাঠাও ভাড়া দিয়ে পিলখানায় প্রোডাক্টগুলো দিয়ে আসি। প্রোডাক্ট গুলো দিয়ে মাঝপথে আসার পর দেখি ভদ্রলোক টাকা বেশি দিয়ে ফেলছে, আমি আবার রিকশা ঘুরিয়ে তাকে টাকা ফেরত দিয়ে আসি। আপনাদের হাতে আমরা খুব স্বল্পমুল্যে প্রোডাক্ট দেই, এবং যেহেতু প্রোডাক্ট গুলো সেন্সিটিভ আমাদের খুব দ্রুত ডেলিভারি দিতে হয়। আমরা এই কাজগুলো করি দায়বদ্ধতা এবং ভালোবাসার জায়গা থেকে।
+
+সবার প্রতি শুভকামনা এবং ভালোবাসা রইল &lt;3 
+
+* আমাদের আপকামিং প্রোডাক্ট, ডিস্কাউন্ট সম্পর্কে জানতে অথবা আপনাদের যেকোনো সাজেশন, প্রোডাক্ট রিকুয়ারমেন্ট আমাদের জানাতে, আমাদের নীলিমবার্তা গ্রুপে জয়েন করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-29T05:54:15.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">337</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">337</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">366</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">366</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">16</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">16</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">325</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">295</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">15</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_495566734725280</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/495566734725280</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবি দুটি পাঠিয়েছেন @Zaranaf Noor আপু। 
+অনেক ধন্যবাদ আপুকে।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-21T04:27:48.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">723</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">723</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">781</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">781</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">114</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">98</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">124</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">655</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">608</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">109</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_494827164799237</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/494827164799237</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">অমর ২১শে ফেব্রুয়ারি উপলক্ষে, পুরো ফেব্রুয়ারি মাস জুড়ে থাকবে থাকবে আমাদের বিভিন্ন প্রোডাক্টে ৭০% পর্যন্ত ডিস্কাউন্ট, ফ্রি গিফট সহ আরো অনেক কিছু।
+
+৩টি ভিন্ন ক্যাকটাসের টেবিলটপ প্ল্যানটার প্যাকেজ ০২। 
+
+অর্ডার প্রসেসঃ
+এই লিঙ্কে http://bit.ly/nilimorder গিয়ে ফর্মটি পূরণ করুন, আপনার অর্ডারটি কনফার্ম করে জানিয়ে দেয়া হবে।
+#nilimshop #nilim #indoorplant</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-20T03:22:57.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">737</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">737</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">782</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">782</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">55</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">30</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">38</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">642</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">603</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">52</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_494150174866936</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/494150174866936</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">অমর ২১শে ফেব্রুয়ারি উপলক্ষে, পুরো ফেব্রুয়ারি মাস জুড়ে থাকবে থাকবে আমাদের বিভিন্ন প্রোডাক্টে ৭০% পর্যন্ত ডিস্কাউন্ট, ফ্রি গিফট সহ আরো অনেক কিছু।
+
+আজকে থাকছে থাই লেমন সিডাম, পুরো বছর এটির রঙ একই থাকবে। পট সহ, ডিস্কাউন্ট দিয়ে প্রাইস মাত্র ১২১ টাকা !!। 
+
+অর্ডার প্রসেসঃ
+এই লিঙ্কে http://bit.ly/nilimorder গিয়ে ফর্মটি পূরণ করুন, আপনার অর্ডারটি কনফার্ম করে জানিয়ে দেয়া হবে।
+#nilimshop #nilim #indoorplant</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-19T03:10:04.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">817</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">817</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">857</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">857</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">82</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">55</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">66</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">713</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">667</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">77</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_490762118539075</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/490762118539075</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">আকাশে বহিছে প্রেম, নয়নে লাগিল নেশা/কারা যে ডাকিল পিছে! বসন্ত এসে গেছে।' একদিকে ঋতুরাজ বসন্তের আগমন, অন্যদিকে ভালোবাসার রং- এই দুই মিলে প্রকৃতির প্রতিটি পরতে পরতে আজ ছড়িয়ে পড়েছে এক মোহময় সুবাস, যার আবেশে প্রত্যেক মানুষের মনে বেজে উঠেছে ভালোবাসার বারতা।
+
+সবার জন্য শুভেচ্ছা এবং ভালোবাসা রইল &lt;3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-14T04:33:11.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">552</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">552</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">606</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">606</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">373</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">316</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_490055245276429</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/490055245276429</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবি দুটি পাঠিয়েছেন Julie JB আপু।
+এত বড় অর্কিড যখন সুন্দরভাবে হাতে পৌঁছে যায় তখন সত্যিই অনেক ভালোলাগা কাজ করে।
+
+#nilimshop</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-13T04:41:11.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">723</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">723</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">799</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">799</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">44</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">34</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">662</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">579</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">42</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+
+<Worksheet ss:Name="Lifetime Talking About This(...">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Description</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post ID</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Permalink</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post Message</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Countries</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Languages</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Posted</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Audience Targeting</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">like</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">share</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">comment</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of unique people who created a story about your Page post by interacting with it. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505757073706246</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505757073706246</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T20:56:50.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505311190417501</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505311190417501</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T05:01:45.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">15</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505303583751595</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505303583751595</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবিটি পাঠিয়েছেন সিয়াম মাহমুদ ভাইয়া। শুভকামনা রইল &lt;3 
+
+অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T04:51:48.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503197143962239</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503197143962239</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; এই কিউট টেবিলটপ ক্যাকটাস  প্যাকেজ অনেক আপু আমাদের কাছ থেকে নিয়েছে, গিফট দেয়ার জন্য। আপনাদের সুবিধার কথা ভেবে আমরা প্রাইস একদম হাতের নাগালে রেখেছি :) 
+
+&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T04:26:58.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">24</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503188057296481</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503188057296481</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">টেবিল টপ প্ল্যানটার পট প্যাকেজ
+আইডিঃ TTP0101
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T04:11:12.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">15</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503175730631047</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503175730631047</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; অনেকেই আমাদের জানিয়েছেন সিডামের প্রাইস ১০০ টাকা হলে নিতে পারেন, যেহেতু আপনাদের মতামতকে আমরা সর্বোচ্চ গুরুত্ব দেই। তাই সিডামের প্রাইস এখন মাত্র ৯৯ টাকা ! :) 
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T03:48:10.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">59</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_502589394023014</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/502589394023014</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-02T06:13:07.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">20</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_502003717414915</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/502003717414915</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-01T08:31:25.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">34</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_501203940828226</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/501203940828226</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">প্রানের বই মেলা শেষ হয়ে গেলো, এরই সাথে শেষ হয়ে গেলো  আমাদের পুরো ফেব্রুয়ারি জুড়ে চলমান অফার !। আপনাদের 
+জন্য রইল নীলিম টিমের পক্ষ থেকে অসংখ্য ভালোবাসা &lt;3  
+
+পুরো ফেব্রুয়ারি মাস জুড়ে আমাদের একমাত্র লক্ষ্য ছিল আপনাদের হাতে একদম মিনিমাম প্রাইসে আমাদের প্রোডাক্টগুলো পৌঁছে দেয়া। 
+
+এই মাসের একটা ঘটনা আপনাদের বলতে চাই, আরেফা আপুর প্রোডাক্টগুলো ডেলিভারি দিতে হবে পিলখানা ৯ টার মধ্যে, সেখান থেকে প্রোডাক্টগুলো চুয়াডাঙ্গা যাবে। যেহেতু আমাদের ডেল্ভিয়ারি ম্যান প্রোডাক্ট পিক করে  ১১ টার পর আর আমাদের টিমমেম্বার দেরও ওত সকালে বিরক্ত করতে ইচ্ছে হয় নাই তাই আমি নিজেই প্রোডাক্ট গুলো নিয়ে, ২০০ টাকা পাঠাও ভাড়া দিয়ে পিলখানায় প্রোডাক্টগুলো দিয়ে আসি। প্রোডাক্ট গুলো দিয়ে মাঝপথে আসার পর দেখি ভদ্রলোক টাকা বেশি দিয়ে ফেলছে, আমি আবার রিকশা ঘুরিয়ে তাকে টাকা ফেরত দিয়ে আসি। আপনাদের হাতে আমরা খুব স্বল্পমুল্যে প্রোডাক্ট দেই, এবং যেহেতু প্রোডাক্ট গুলো সেন্সিটিভ আমাদের খুব দ্রুত ডেলিভারি দিতে হয়। আমরা এই কাজগুলো করি দায়বদ্ধতা এবং ভালোবাসার জায়গা থেকে।
+
+সবার প্রতি শুভকামনা এবং ভালোবাসা রইল &lt;3 
+
+* আমাদের আপকামিং প্রোডাক্ট, ডিস্কাউন্ট সম্পর্কে জানতে অথবা আপনাদের যেকোনো সাজেশন, প্রোডাক্ট রিকুয়ারমেন্ট আমাদের জানাতে, আমাদের নীলিমবার্তা গ্রুপে জয়েন করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-29T05:54:15.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_495566734725280</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/495566734725280</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবি দুটি পাঠিয়েছেন @Zaranaf Noor আপু। 
+অনেক ধন্যবাদ আপুকে।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-21T04:27:48.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">26</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_494827164799237</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/494827164799237</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">অমর ২১শে ফেব্রুয়ারি উপলক্ষে, পুরো ফেব্রুয়ারি মাস জুড়ে থাকবে থাকবে আমাদের বিভিন্ন প্রোডাক্টে ৭০% পর্যন্ত ডিস্কাউন্ট, ফ্রি গিফট সহ আরো অনেক কিছু।
+
+৩টি ভিন্ন ক্যাকটাসের টেবিলটপ প্ল্যানটার প্যাকেজ ০২। 
+
+অর্ডার প্রসেসঃ
+এই লিঙ্কে http://bit.ly/nilimorder গিয়ে ফর্মটি পূরণ করুন, আপনার অর্ডারটি কনফার্ম করে জানিয়ে দেয়া হবে।
+#nilimshop #nilim #indoorplant</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-20T03:22:57.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">33</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_494150174866936</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/494150174866936</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">অমর ২১শে ফেব্রুয়ারি উপলক্ষে, পুরো ফেব্রুয়ারি মাস জুড়ে থাকবে থাকবে আমাদের বিভিন্ন প্রোডাক্টে ৭০% পর্যন্ত ডিস্কাউন্ট, ফ্রি গিফট সহ আরো অনেক কিছু।
+
+আজকে থাকছে থাই লেমন সিডাম, পুরো বছর এটির রঙ একই থাকবে। পট সহ, ডিস্কাউন্ট দিয়ে প্রাইস মাত্র ১২১ টাকা !!। 
+
+অর্ডার প্রসেসঃ
+এই লিঙ্কে http://bit.ly/nilimorder গিয়ে ফর্মটি পূরণ করুন, আপনার অর্ডারটি কনফার্ম করে জানিয়ে দেয়া হবে।
+#nilimshop #nilim #indoorplant</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-19T03:10:04.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">34</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_490762118539075</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/490762118539075</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">আকাশে বহিছে প্রেম, নয়নে লাগিল নেশা/কারা যে ডাকিল পিছে! বসন্ত এসে গেছে।' একদিকে ঋতুরাজ বসন্তের আগমন, অন্যদিকে ভালোবাসার রং- এই দুই মিলে প্রকৃতির প্রতিটি পরতে পরতে আজ ছড়িয়ে পড়েছে এক মোহময় সুবাস, যার আবেশে প্রত্যেক মানুষের মনে বেজে উঠেছে ভালোবাসার বারতা।
+
+সবার জন্য শুভেচ্ছা এবং ভালোবাসা রইল &lt;3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-14T04:33:11.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_490055245276429</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/490055245276429</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবি দুটি পাঠিয়েছেন Julie JB আপু।
+এত বড় অর্কিড যখন সুন্দরভাবে হাতে পৌঁছে যায় তখন সত্যিই অনেক ভালোলাগা কাজ করে।
+
+#nilimshop</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-13T04:41:11.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">13</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+
+<Worksheet ss:Name="Lifetime Post Stories by act...">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Description</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post ID</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Permalink</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post Message</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Countries</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Languages</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Posted</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Audience Targeting</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">like</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">share</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">comment</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of stories created about your Page post, by action type. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505757073706246</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505757073706246</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T20:56:50.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505311190417501</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505311190417501</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T05:01:45.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">15</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505303583751595</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505303583751595</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবিটি পাঠিয়েছেন সিয়াম মাহমুদ ভাইয়া। শুভকামনা রইল &lt;3 
+
+অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T04:51:48.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503197143962239</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503197143962239</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; এই কিউট টেবিলটপ ক্যাকটাস  প্যাকেজ অনেক আপু আমাদের কাছ থেকে নিয়েছে, গিফট দেয়ার জন্য। আপনাদের সুবিধার কথা ভেবে আমরা প্রাইস একদম হাতের নাগালে রেখেছি :) 
+
+&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T04:26:58.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">24</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503188057296481</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503188057296481</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">টেবিল টপ প্ল্যানটার পট প্যাকেজ
+আইডিঃ TTP0101
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T04:11:12.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">15</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503175730631047</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503175730631047</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; অনেকেই আমাদের জানিয়েছেন সিডামের প্রাইস ১০০ টাকা হলে নিতে পারেন, যেহেতু আপনাদের মতামতকে আমরা সর্বোচ্চ গুরুত্ব দেই। তাই সিডামের প্রাইস এখন মাত্র ৯৯ টাকা ! :) 
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T03:48:10.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">64</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">19</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_502589394023014</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/502589394023014</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-02T06:13:07.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">23</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_502003717414915</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/502003717414915</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-01T08:31:25.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">35</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_501203940828226</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/501203940828226</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">প্রানের বই মেলা শেষ হয়ে গেলো, এরই সাথে শেষ হয়ে গেলো  আমাদের পুরো ফেব্রুয়ারি জুড়ে চলমান অফার !। আপনাদের 
+জন্য রইল নীলিম টিমের পক্ষ থেকে অসংখ্য ভালোবাসা &lt;3  
+
+পুরো ফেব্রুয়ারি মাস জুড়ে আমাদের একমাত্র লক্ষ্য ছিল আপনাদের হাতে একদম মিনিমাম প্রাইসে আমাদের প্রোডাক্টগুলো পৌঁছে দেয়া। 
+
+এই মাসের একটা ঘটনা আপনাদের বলতে চাই, আরেফা আপুর প্রোডাক্টগুলো ডেলিভারি দিতে হবে পিলখানা ৯ টার মধ্যে, সেখান থেকে প্রোডাক্টগুলো চুয়াডাঙ্গা যাবে। যেহেতু আমাদের ডেল্ভিয়ারি ম্যান প্রোডাক্ট পিক করে  ১১ টার পর আর আমাদের টিমমেম্বার দেরও ওত সকালে বিরক্ত করতে ইচ্ছে হয় নাই তাই আমি নিজেই প্রোডাক্ট গুলো নিয়ে, ২০০ টাকা পাঠাও ভাড়া দিয়ে পিলখানায় প্রোডাক্টগুলো দিয়ে আসি। প্রোডাক্ট গুলো দিয়ে মাঝপথে আসার পর দেখি ভদ্রলোক টাকা বেশি দিয়ে ফেলছে, আমি আবার রিকশা ঘুরিয়ে তাকে টাকা ফেরত দিয়ে আসি। আপনাদের হাতে আমরা খুব স্বল্পমুল্যে প্রোডাক্ট দেই, এবং যেহেতু প্রোডাক্ট গুলো সেন্সিটিভ আমাদের খুব দ্রুত ডেলিভারি দিতে হয়। আমরা এই কাজগুলো করি দায়বদ্ধতা এবং ভালোবাসার জায়গা থেকে।
+
+সবার প্রতি শুভকামনা এবং ভালোবাসা রইল &lt;3 
+
+* আমাদের আপকামিং প্রোডাক্ট, ডিস্কাউন্ট সম্পর্কে জানতে অথবা আপনাদের যেকোনো সাজেশন, প্রোডাক্ট রিকুয়ারমেন্ট আমাদের জানাতে, আমাদের নীলিমবার্তা গ্রুপে জয়েন করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-29T05:54:15.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_495566734725280</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/495566734725280</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবি দুটি পাঠিয়েছেন @Zaranaf Noor আপু। 
+অনেক ধন্যবাদ আপুকে।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-21T04:27:48.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">27</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_494827164799237</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/494827164799237</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">অমর ২১শে ফেব্রুয়ারি উপলক্ষে, পুরো ফেব্রুয়ারি মাস জুড়ে থাকবে থাকবে আমাদের বিভিন্ন প্রোডাক্টে ৭০% পর্যন্ত ডিস্কাউন্ট, ফ্রি গিফট সহ আরো অনেক কিছু।
+
+৩টি ভিন্ন ক্যাকটাসের টেবিলটপ প্ল্যানটার প্যাকেজ ০২। 
+
+অর্ডার প্রসেসঃ
+এই লিঙ্কে http://bit.ly/nilimorder গিয়ে ফর্মটি পূরণ করুন, আপনার অর্ডারটি কনফার্ম করে জানিয়ে দেয়া হবে।
+#nilimshop #nilim #indoorplant</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-20T03:22:57.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">35</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">10</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_494150174866936</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/494150174866936</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">অমর ২১শে ফেব্রুয়ারি উপলক্ষে, পুরো ফেব্রুয়ারি মাস জুড়ে থাকবে থাকবে আমাদের বিভিন্ন প্রোডাক্টে ৭০% পর্যন্ত ডিস্কাউন্ট, ফ্রি গিফট সহ আরো অনেক কিছু।
+
+আজকে থাকছে থাই লেমন সিডাম, পুরো বছর এটির রঙ একই থাকবে। পট সহ, ডিস্কাউন্ট দিয়ে প্রাইস মাত্র ১২১ টাকা !!। 
+
+অর্ডার প্রসেসঃ
+এই লিঙ্কে http://bit.ly/nilimorder গিয়ে ফর্মটি পূরণ করুন, আপনার অর্ডারটি কনফার্ম করে জানিয়ে দেয়া হবে।
+#nilimshop #nilim #indoorplant</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-19T03:10:04.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">34</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_490762118539075</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/490762118539075</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">আকাশে বহিছে প্রেম, নয়নে লাগিল নেশা/কারা যে ডাকিল পিছে! বসন্ত এসে গেছে।' একদিকে ঋতুরাজ বসন্তের আগমন, অন্যদিকে ভালোবাসার রং- এই দুই মিলে প্রকৃতির প্রতিটি পরতে পরতে আজ ছড়িয়ে পড়েছে এক মোহময় সুবাস, যার আবেশে প্রত্যেক মানুষের মনে বেজে উঠেছে ভালোবাসার বারতা।
+
+সবার জন্য শুভেচ্ছা এবং ভালোবাসা রইল &lt;3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-14T04:33:11.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">13</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_490055245276429</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/490055245276429</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবি দুটি পাঠিয়েছেন Julie JB আপু।
+এত বড় অর্কিড যখন সুন্দরভাবে হাতে পৌঁছে যায় তখন সত্যিই অনেক ভালোলাগা কাজ করে।
+
+#nilimshop</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-13T04:41:11.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">14</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+
+<Worksheet ss:Name="Lifetime Post Consumers by type">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Description</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post ID</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Permalink</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post Message</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Countries</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Languages</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Posted</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Audience Targeting</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">other clicks</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">link clicks</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">photo view</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who matched the audience targeting on the post that clicked anywhere in the post on News Feed, by type. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505757073706246</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505757073706246</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T20:56:50.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505311190417501</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505311190417501</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T05:01:45.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505303583751595</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505303583751595</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবিটি পাঠিয়েছেন সিয়াম মাহমুদ ভাইয়া। শুভকামনা রইল &lt;3 
+
+অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T04:51:48.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503197143962239</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503197143962239</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; এই কিউট টেবিলটপ ক্যাকটাস  প্যাকেজ অনেক আপু আমাদের কাছ থেকে নিয়েছে, গিফট দেয়ার জন্য। আপনাদের সুবিধার কথা ভেবে আমরা প্রাইস একদম হাতের নাগালে রেখেছি :) 
+
+&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T04:26:58.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503188057296481</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503188057296481</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">টেবিল টপ প্ল্যানটার পট প্যাকেজ
+আইডিঃ TTP0101
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T04:11:12.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503175730631047</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503175730631047</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; অনেকেই আমাদের জানিয়েছেন সিডামের প্রাইস ১০০ টাকা হলে নিতে পারেন, যেহেতু আপনাদের মতামতকে আমরা সর্বোচ্চ গুরুত্ব দেই। তাই সিডামের প্রাইস এখন মাত্র ৯৯ টাকা ! :) 
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T03:48:10.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">114</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">19</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_502589394023014</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/502589394023014</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-02T06:13:07.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">19</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_502003717414915</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/502003717414915</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-01T08:31:25.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">28</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">13</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_501203940828226</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/501203940828226</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">প্রানের বই মেলা শেষ হয়ে গেলো, এরই সাথে শেষ হয়ে গেলো  আমাদের পুরো ফেব্রুয়ারি জুড়ে চলমান অফার !। আপনাদের 
+জন্য রইল নীলিম টিমের পক্ষ থেকে অসংখ্য ভালোবাসা &lt;3  
+
+পুরো ফেব্রুয়ারি মাস জুড়ে আমাদের একমাত্র লক্ষ্য ছিল আপনাদের হাতে একদম মিনিমাম প্রাইসে আমাদের প্রোডাক্টগুলো পৌঁছে দেয়া। 
+
+এই মাসের একটা ঘটনা আপনাদের বলতে চাই, আরেফা আপুর প্রোডাক্টগুলো ডেলিভারি দিতে হবে পিলখানা ৯ টার মধ্যে, সেখান থেকে প্রোডাক্টগুলো চুয়াডাঙ্গা যাবে। যেহেতু আমাদের ডেল্ভিয়ারি ম্যান প্রোডাক্ট পিক করে  ১১ টার পর আর আমাদের টিমমেম্বার দেরও ওত সকালে বিরক্ত করতে ইচ্ছে হয় নাই তাই আমি নিজেই প্রোডাক্ট গুলো নিয়ে, ২০০ টাকা পাঠাও ভাড়া দিয়ে পিলখানায় প্রোডাক্টগুলো দিয়ে আসি। প্রোডাক্ট গুলো দিয়ে মাঝপথে আসার পর দেখি ভদ্রলোক টাকা বেশি দিয়ে ফেলছে, আমি আবার রিকশা ঘুরিয়ে তাকে টাকা ফেরত দিয়ে আসি। আপনাদের হাতে আমরা খুব স্বল্পমুল্যে প্রোডাক্ট দেই, এবং যেহেতু প্রোডাক্ট গুলো সেন্সিটিভ আমাদের খুব দ্রুত ডেলিভারি দিতে হয়। আমরা এই কাজগুলো করি দায়বদ্ধতা এবং ভালোবাসার জায়গা থেকে।
+
+সবার প্রতি শুভকামনা এবং ভালোবাসা রইল &lt;3 
+
+* আমাদের আপকামিং প্রোডাক্ট, ডিস্কাউন্ট সম্পর্কে জানতে অথবা আপনাদের যেকোনো সাজেশন, প্রোডাক্ট রিকুয়ারমেন্ট আমাদের জানাতে, আমাদের নীলিমবার্তা গ্রুপে জয়েন করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-29T05:54:15.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_495566734725280</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/495566734725280</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবি দুটি পাঠিয়েছেন @Zaranaf Noor আপু। 
+অনেক ধন্যবাদ আপুকে।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-21T04:27:48.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">18</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">94</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_494827164799237</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/494827164799237</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">অমর ২১শে ফেব্রুয়ারি উপলক্ষে, পুরো ফেব্রুয়ারি মাস জুড়ে থাকবে থাকবে আমাদের বিভিন্ন প্রোডাক্টে ৭০% পর্যন্ত ডিস্কাউন্ট, ফ্রি গিফট সহ আরো অনেক কিছু।
+
+৩টি ভিন্ন ক্যাকটাসের টেবিলটপ প্ল্যানটার প্যাকেজ ০২। 
+
+অর্ডার প্রসেসঃ
+এই লিঙ্কে http://bit.ly/nilimorder গিয়ে ফর্মটি পূরণ করুন, আপনার অর্ডারটি কনফার্ম করে জানিয়ে দেয়া হবে।
+#nilimshop #nilim #indoorplant</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-20T03:22:57.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">21</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_494150174866936</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/494150174866936</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">অমর ২১শে ফেব্রুয়ারি উপলক্ষে, পুরো ফেব্রুয়ারি মাস জুড়ে থাকবে থাকবে আমাদের বিভিন্ন প্রোডাক্টে ৭০% পর্যন্ত ডিস্কাউন্ট, ফ্রি গিফট সহ আরো অনেক কিছু।
+
+আজকে থাকছে থাই লেমন সিডাম, পুরো বছর এটির রঙ একই থাকবে। পট সহ, ডিস্কাউন্ট দিয়ে প্রাইস মাত্র ১২১ টাকা !!। 
+
+অর্ডার প্রসেসঃ
+এই লিঙ্কে http://bit.ly/nilimorder গিয়ে ফর্মটি পূরণ করুন, আপনার অর্ডারটি কনফার্ম করে জানিয়ে দেয়া হবে।
+#nilimshop #nilim #indoorplant</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-19T03:10:04.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">41</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">19</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_490762118539075</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/490762118539075</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">আকাশে বহিছে প্রেম, নয়নে লাগিল নেশা/কারা যে ডাকিল পিছে! বসন্ত এসে গেছে।' একদিকে ঋতুরাজ বসন্তের আগমন, অন্যদিকে ভালোবাসার রং- এই দুই মিলে প্রকৃতির প্রতিটি পরতে পরতে আজ ছড়িয়ে পড়েছে এক মোহময় সুবাস, যার আবেশে প্রত্যেক মানুষের মনে বেজে উঠেছে ভালোবাসার বারতা।
+
+সবার জন্য শুভেচ্ছা এবং ভালোবাসা রইল &lt;3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-14T04:33:11.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_490055245276429</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/490055245276429</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবি দুটি পাঠিয়েছেন Julie JB আপু।
+এত বড় অর্কিড যখন সুন্দরভাবে হাতে পৌঁছে যায় তখন সত্যিই অনেক ভালোলাগা কাজ করে।
+
+#nilimshop</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-13T04:41:11.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">31</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+
+<Worksheet ss:Name="Lifetime Post Consumptions b...">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Description</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post ID</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Permalink</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post Message</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Countries</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Languages</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Posted</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Audience Targeting</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">other clicks</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">link clicks</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">photo view</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of clicks anywhere in the post on News Feed from users that matched the audience targeting on the post, by type. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505757073706246</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505757073706246</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T20:56:50.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505311190417501</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505311190417501</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T05:01:45.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505303583751595</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505303583751595</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবিটি পাঠিয়েছেন সিয়াম মাহমুদ ভাইয়া। শুভকামনা রইল &lt;3 
+
+অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T04:51:48.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">12</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503197143962239</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503197143962239</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; এই কিউট টেবিলটপ ক্যাকটাস  প্যাকেজ অনেক আপু আমাদের কাছ থেকে নিয়েছে, গিফট দেয়ার জন্য। আপনাদের সুবিধার কথা ভেবে আমরা প্রাইস একদম হাতের নাগালে রেখেছি :) 
+
+&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T04:26:58.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503188057296481</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503188057296481</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">টেবিল টপ প্ল্যানটার পট প্যাকেজ
+আইডিঃ TTP0101
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T04:11:12.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">11</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">5</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503175730631047</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503175730631047</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; অনেকেই আমাদের জানিয়েছেন সিডামের প্রাইস ১০০ টাকা হলে নিতে পারেন, যেহেতু আপনাদের মতামতকে আমরা সর্বোচ্চ গুরুত্ব দেই। তাই সিডামের প্রাইস এখন মাত্র ৯৯ টাকা ! :) 
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T03:48:10.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">140</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">6</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">19</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_502589394023014</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/502589394023014</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-02T06:13:07.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">24</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_502003717414915</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/502003717414915</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-01T08:31:25.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">32</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">13</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_501203940828226</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/501203940828226</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">প্রানের বই মেলা শেষ হয়ে গেলো, এরই সাথে শেষ হয়ে গেলো  আমাদের পুরো ফেব্রুয়ারি জুড়ে চলমান অফার !। আপনাদের 
+জন্য রইল নীলিম টিমের পক্ষ থেকে অসংখ্য ভালোবাসা &lt;3  
+
+পুরো ফেব্রুয়ারি মাস জুড়ে আমাদের একমাত্র লক্ষ্য ছিল আপনাদের হাতে একদম মিনিমাম প্রাইসে আমাদের প্রোডাক্টগুলো পৌঁছে দেয়া। 
+
+এই মাসের একটা ঘটনা আপনাদের বলতে চাই, আরেফা আপুর প্রোডাক্টগুলো ডেলিভারি দিতে হবে পিলখানা ৯ টার মধ্যে, সেখান থেকে প্রোডাক্টগুলো চুয়াডাঙ্গা যাবে। যেহেতু আমাদের ডেল্ভিয়ারি ম্যান প্রোডাক্ট পিক করে  ১১ টার পর আর আমাদের টিমমেম্বার দেরও ওত সকালে বিরক্ত করতে ইচ্ছে হয় নাই তাই আমি নিজেই প্রোডাক্ট গুলো নিয়ে, ২০০ টাকা পাঠাও ভাড়া দিয়ে পিলখানায় প্রোডাক্টগুলো দিয়ে আসি। প্রোডাক্ট গুলো দিয়ে মাঝপথে আসার পর দেখি ভদ্রলোক টাকা বেশি দিয়ে ফেলছে, আমি আবার রিকশা ঘুরিয়ে তাকে টাকা ফেরত দিয়ে আসি। আপনাদের হাতে আমরা খুব স্বল্পমুল্যে প্রোডাক্ট দেই, এবং যেহেতু প্রোডাক্ট গুলো সেন্সিটিভ আমাদের খুব দ্রুত ডেলিভারি দিতে হয়। আমরা এই কাজগুলো করি দায়বদ্ধতা এবং ভালোবাসার জায়গা থেকে।
+
+সবার প্রতি শুভকামনা এবং ভালোবাসা রইল &lt;3 
+
+* আমাদের আপকামিং প্রোডাক্ট, ডিস্কাউন্ট সম্পর্কে জানতে অথবা আপনাদের যেকোনো সাজেশন, প্রোডাক্ট রিকুয়ারমেন্ট আমাদের জানাতে, আমাদের নীলিমবার্তা গ্রুপে জয়েন করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-29T05:54:15.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">13</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_495566734725280</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/495566734725280</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবি দুটি পাঠিয়েছেন @Zaranaf Noor আপু। 
+অনেক ধন্যবাদ আপুকে।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-21T04:27:48.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">30</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">94</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_494827164799237</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/494827164799237</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">অমর ২১শে ফেব্রুয়ারি উপলক্ষে, পুরো ফেব্রুয়ারি মাস জুড়ে থাকবে থাকবে আমাদের বিভিন্ন প্রোডাক্টে ৭০% পর্যন্ত ডিস্কাউন্ট, ফ্রি গিফট সহ আরো অনেক কিছু।
+
+৩টি ভিন্ন ক্যাকটাসের টেবিলটপ প্ল্যানটার প্যাকেজ ০২। 
+
+অর্ডার প্রসেসঃ
+এই লিঙ্কে http://bit.ly/nilimorder গিয়ে ফর্মটি পূরণ করুন, আপনার অর্ডারটি কনফার্ম করে জানিয়ে দেয়া হবে।
+#nilimshop #nilim #indoorplant</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-20T03:22:57.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">26</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_494150174866936</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/494150174866936</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">অমর ২১শে ফেব্রুয়ারি উপলক্ষে, পুরো ফেব্রুয়ারি মাস জুড়ে থাকবে থাকবে আমাদের বিভিন্ন প্রোডাক্টে ৭০% পর্যন্ত ডিস্কাউন্ট, ফ্রি গিফট সহ আরো অনেক কিছু।
+
+আজকে থাকছে থাই লেমন সিডাম, পুরো বছর এটির রঙ একই থাকবে। পট সহ, ডিস্কাউন্ট দিয়ে প্রাইস মাত্র ১২১ টাকা !!। 
+
+অর্ডার প্রসেসঃ
+এই লিঙ্কে http://bit.ly/nilimorder গিয়ে ফর্মটি পূরণ করুন, আপনার অর্ডারটি কনফার্ম করে জানিয়ে দেয়া হবে।
+#nilimshop #nilim #indoorplant</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-19T03:10:04.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">44</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">19</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_490762118539075</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/490762118539075</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">আকাশে বহিছে প্রেম, নয়নে লাগিল নেশা/কারা যে ডাকিল পিছে! বসন্ত এসে গেছে।' একদিকে ঋতুরাজ বসন্তের আগমন, অন্যদিকে ভালোবাসার রং- এই দুই মিলে প্রকৃতির প্রতিটি পরতে পরতে আজ ছড়িয়ে পড়েছে এক মোহময় সুবাস, যার আবেশে প্রত্যেক মানুষের মনে বেজে উঠেছে ভালোবাসার বারতা।
+
+সবার জন্য শুভেচ্ছা এবং ভালোবাসা রইল &lt;3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-14T04:33:11.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_490055245276429</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/490055245276429</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবি দুটি পাঠিয়েছেন Julie JB আপু।
+এত বড় অর্কিড যখন সুন্দরভাবে হাতে পৌঁছে যায় তখন সত্যিই অনেক ভালোলাগা কাজ করে।
+
+#nilimshop</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-13T04:41:11.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">9</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">31</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+
+<Worksheet ss:Name="Lifetime Negative Feedback f...">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Description</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post ID</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Permalink</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post Message</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Countries</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Languages</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Posted</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Audience Targeting</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of times people have given negative feedback to your post, by type. (Total Count)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505757073706246</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505757073706246</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T20:56:50.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505311190417501</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505311190417501</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T05:01:45.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505303583751595</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505303583751595</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবিটি পাঠিয়েছেন সিয়াম মাহমুদ ভাইয়া। শুভকামনা রইল &lt;3 
+
+অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T04:51:48.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503197143962239</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503197143962239</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; এই কিউট টেবিলটপ ক্যাকটাস  প্যাকেজ অনেক আপু আমাদের কাছ থেকে নিয়েছে, গিফট দেয়ার জন্য। আপনাদের সুবিধার কথা ভেবে আমরা প্রাইস একদম হাতের নাগালে রেখেছি :) 
+
+&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T04:26:58.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503188057296481</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503188057296481</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">টেবিল টপ প্ল্যানটার পট প্যাকেজ
+আইডিঃ TTP0101
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T04:11:12.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503175730631047</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503175730631047</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; অনেকেই আমাদের জানিয়েছেন সিডামের প্রাইস ১০০ টাকা হলে নিতে পারেন, যেহেতু আপনাদের মতামতকে আমরা সর্বোচ্চ গুরুত্ব দেই। তাই সিডামের প্রাইস এখন মাত্র ৯৯ টাকা ! :) 
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T03:48:10.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_502589394023014</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/502589394023014</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-02T06:13:07.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_502003717414915</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/502003717414915</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-01T08:31:25.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_501203940828226</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/501203940828226</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">প্রানের বই মেলা শেষ হয়ে গেলো, এরই সাথে শেষ হয়ে গেলো  আমাদের পুরো ফেব্রুয়ারি জুড়ে চলমান অফার !। আপনাদের 
+জন্য রইল নীলিম টিমের পক্ষ থেকে অসংখ্য ভালোবাসা &lt;3  
+
+পুরো ফেব্রুয়ারি মাস জুড়ে আমাদের একমাত্র লক্ষ্য ছিল আপনাদের হাতে একদম মিনিমাম প্রাইসে আমাদের প্রোডাক্টগুলো পৌঁছে দেয়া। 
+
+এই মাসের একটা ঘটনা আপনাদের বলতে চাই, আরেফা আপুর প্রোডাক্টগুলো ডেলিভারি দিতে হবে পিলখানা ৯ টার মধ্যে, সেখান থেকে প্রোডাক্টগুলো চুয়াডাঙ্গা যাবে। যেহেতু আমাদের ডেল্ভিয়ারি ম্যান প্রোডাক্ট পিক করে  ১১ টার পর আর আমাদের টিমমেম্বার দেরও ওত সকালে বিরক্ত করতে ইচ্ছে হয় নাই তাই আমি নিজেই প্রোডাক্ট গুলো নিয়ে, ২০০ টাকা পাঠাও ভাড়া দিয়ে পিলখানায় প্রোডাক্টগুলো দিয়ে আসি। প্রোডাক্ট গুলো দিয়ে মাঝপথে আসার পর দেখি ভদ্রলোক টাকা বেশি দিয়ে ফেলছে, আমি আবার রিকশা ঘুরিয়ে তাকে টাকা ফেরত দিয়ে আসি। আপনাদের হাতে আমরা খুব স্বল্পমুল্যে প্রোডাক্ট দেই, এবং যেহেতু প্রোডাক্ট গুলো সেন্সিটিভ আমাদের খুব দ্রুত ডেলিভারি দিতে হয়। আমরা এই কাজগুলো করি দায়বদ্ধতা এবং ভালোবাসার জায়গা থেকে।
+
+সবার প্রতি শুভকামনা এবং ভালোবাসা রইল &lt;3 
+
+* আমাদের আপকামিং প্রোডাক্ট, ডিস্কাউন্ট সম্পর্কে জানতে অথবা আপনাদের যেকোনো সাজেশন, প্রোডাক্ট রিকুয়ারমেন্ট আমাদের জানাতে, আমাদের নীলিমবার্তা গ্রুপে জয়েন করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-29T05:54:15.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_495566734725280</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/495566734725280</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবি দুটি পাঠিয়েছেন @Zaranaf Noor আপু। 
+অনেক ধন্যবাদ আপুকে।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-21T04:27:48.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_494827164799237</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/494827164799237</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">অমর ২১শে ফেব্রুয়ারি উপলক্ষে, পুরো ফেব্রুয়ারি মাস জুড়ে থাকবে থাকবে আমাদের বিভিন্ন প্রোডাক্টে ৭০% পর্যন্ত ডিস্কাউন্ট, ফ্রি গিফট সহ আরো অনেক কিছু।
+
+৩টি ভিন্ন ক্যাকটাসের টেবিলটপ প্ল্যানটার প্যাকেজ ০২। 
+
+অর্ডার প্রসেসঃ
+এই লিঙ্কে http://bit.ly/nilimorder গিয়ে ফর্মটি পূরণ করুন, আপনার অর্ডারটি কনফার্ম করে জানিয়ে দেয়া হবে।
+#nilimshop #nilim #indoorplant</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-20T03:22:57.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_494150174866936</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/494150174866936</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">অমর ২১শে ফেব্রুয়ারি উপলক্ষে, পুরো ফেব্রুয়ারি মাস জুড়ে থাকবে থাকবে আমাদের বিভিন্ন প্রোডাক্টে ৭০% পর্যন্ত ডিস্কাউন্ট, ফ্রি গিফট সহ আরো অনেক কিছু।
+
+আজকে থাকছে থাই লেমন সিডাম, পুরো বছর এটির রঙ একই থাকবে। পট সহ, ডিস্কাউন্ট দিয়ে প্রাইস মাত্র ১২১ টাকা !!। 
+
+অর্ডার প্রসেসঃ
+এই লিঙ্কে http://bit.ly/nilimorder গিয়ে ফর্মটি পূরণ করুন, আপনার অর্ডারটি কনফার্ম করে জানিয়ে দেয়া হবে।
+#nilimshop #nilim #indoorplant</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-19T03:10:04.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_490762118539075</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/490762118539075</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">আকাশে বহিছে প্রেম, নয়নে লাগিল নেশা/কারা যে ডাকিল পিছে! বসন্ত এসে গেছে।' একদিকে ঋতুরাজ বসন্তের আগমন, অন্যদিকে ভালোবাসার রং- এই দুই মিলে প্রকৃতির প্রতিটি পরতে পরতে আজ ছড়িয়ে পড়েছে এক মোহময় সুবাস, যার আবেশে প্রত্যেক মানুষের মনে বেজে উঠেছে ভালোবাসার বারতা।
+
+সবার জন্য শুভেচ্ছা এবং ভালোবাসা রইল &lt;3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-14T04:33:11.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_490055245276429</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/490055245276429</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবি দুটি পাঠিয়েছেন Julie JB আপু।
+এত বড় অর্কিড যখন সুন্দরভাবে হাতে পৌঁছে যায় তখন সত্যিই অনেক ভালোলাগা কাজ করে।
+
+#nilimshop</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-13T04:41:11.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+
+<Worksheet ss:Name="Lifetime Negative Feedback">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Description</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post ID</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Permalink</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Post Message</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Countries</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">Languages</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Posted</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Audience Targeting</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lifetime: The number of people who have given negative feedback to your post, by type. (Unique Users)</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505757073706246</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505757073706246</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T20:56:50.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505311190417501</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505311190417501</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T05:01:45.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_505303583751595</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/505303583751595</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবিটি পাঠিয়েছেন সিয়াম মাহমুদ ভাইয়া। শুভকামনা রইল &lt;3 
+
+অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-06T04:51:48.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503197143962239</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503197143962239</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; এই কিউট টেবিলটপ ক্যাকটাস  প্যাকেজ অনেক আপু আমাদের কাছ থেকে নিয়েছে, গিফট দেয়ার জন্য। আপনাদের সুবিধার কথা ভেবে আমরা প্রাইস একদম হাতের নাগালে রেখেছি :) 
+
+&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T04:26:58.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503188057296481</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503188057296481</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">টেবিল টপ প্ল্যানটার পট প্যাকেজ
+আইডিঃ TTP0101
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T04:11:12.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_503175730631047</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/503175730631047</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; অনেকেই আমাদের জানিয়েছেন সিডামের প্রাইস ১০০ টাকা হলে নিতে পারেন, যেহেতু আপনাদের মতামতকে আমরা সর্বোচ্চ গুরুত্ব দেই। তাই সিডামের প্রাইস এখন মাত্র ৯৯ টাকা ! :) 
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ডেলিভারি চার্জ ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা।
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-03T03:48:10.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_502589394023014</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/502589394023014</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-02T06:13:07.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_502003717414915</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/502003717414915</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">&gt; প্রিয় মানুষকে উপহার দিন &lt;3 অথবা আপনার ঘরের কোনে রাখুন সবুজের ছোঁয়া।
+
+&gt; অর্ডার কনফার্ম করার ২৪ ঘণ্টার মধ্যে ডেলিভারি। পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+
+&gt; প্রোডাক্ট ডেলিভারি চার্জঃ
+* ঢাকায় ৬০ টাকা, ঢাকার বাইরে ৮০ টাকা
+
+অর্ডার করার জন্য bit.ly/nilimorder ফর্ম টি পূরণ করুন</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-03-01T08:31:25.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_501203940828226</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/501203940828226</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">প্রানের বই মেলা শেষ হয়ে গেলো, এরই সাথে শেষ হয়ে গেলো  আমাদের পুরো ফেব্রুয়ারি জুড়ে চলমান অফার !। আপনাদের 
+জন্য রইল নীলিম টিমের পক্ষ থেকে অসংখ্য ভালোবাসা &lt;3  
+
+পুরো ফেব্রুয়ারি মাস জুড়ে আমাদের একমাত্র লক্ষ্য ছিল আপনাদের হাতে একদম মিনিমাম প্রাইসে আমাদের প্রোডাক্টগুলো পৌঁছে দেয়া। 
+
+এই মাসের একটা ঘটনা আপনাদের বলতে চাই, আরেফা আপুর প্রোডাক্টগুলো ডেলিভারি দিতে হবে পিলখানা ৯ টার মধ্যে, সেখান থেকে প্রোডাক্টগুলো চুয়াডাঙ্গা যাবে। যেহেতু আমাদের ডেল্ভিয়ারি ম্যান প্রোডাক্ট পিক করে  ১১ টার পর আর আমাদের টিমমেম্বার দেরও ওত সকালে বিরক্ত করতে ইচ্ছে হয় নাই তাই আমি নিজেই প্রোডাক্ট গুলো নিয়ে, ২০০ টাকা পাঠাও ভাড়া দিয়ে পিলখানায় প্রোডাক্টগুলো দিয়ে আসি। প্রোডাক্ট গুলো দিয়ে মাঝপথে আসার পর দেখি ভদ্রলোক টাকা বেশি দিয়ে ফেলছে, আমি আবার রিকশা ঘুরিয়ে তাকে টাকা ফেরত দিয়ে আসি। আপনাদের হাতে আমরা খুব স্বল্পমুল্যে প্রোডাক্ট দেই, এবং যেহেতু প্রোডাক্ট গুলো সেন্সিটিভ আমাদের খুব দ্রুত ডেলিভারি দিতে হয়। আমরা এই কাজগুলো করি দায়বদ্ধতা এবং ভালোবাসার জায়গা থেকে।
+
+সবার প্রতি শুভকামনা এবং ভালোবাসা রইল &lt;3 
+
+* আমাদের আপকামিং প্রোডাক্ট, ডিস্কাউন্ট সম্পর্কে জানতে অথবা আপনাদের যেকোনো সাজেশন, প্রোডাক্ট রিকুয়ারমেন্ট আমাদের জানাতে, আমাদের নীলিমবার্তা গ্রুপে জয়েন করুন।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-29T05:54:15.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_495566734725280</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/495566734725280</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবি দুটি পাঠিয়েছেন @Zaranaf Noor আপু। 
+অনেক ধন্যবাদ আপুকে।</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-21T04:27:48.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_494827164799237</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/494827164799237</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">অমর ২১শে ফেব্রুয়ারি উপলক্ষে, পুরো ফেব্রুয়ারি মাস জুড়ে থাকবে থাকবে আমাদের বিভিন্ন প্রোডাক্টে ৭০% পর্যন্ত ডিস্কাউন্ট, ফ্রি গিফট সহ আরো অনেক কিছু।
+
+৩টি ভিন্ন ক্যাকটাসের টেবিলটপ প্ল্যানটার প্যাকেজ ০২। 
+
+অর্ডার প্রসেসঃ
+এই লিঙ্কে http://bit.ly/nilimorder গিয়ে ফর্মটি পূরণ করুন, আপনার অর্ডারটি কনফার্ম করে জানিয়ে দেয়া হবে।
+#nilimshop #nilim #indoorplant</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-20T03:22:57.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_494150174866936</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/494150174866936</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">অমর ২১শে ফেব্রুয়ারি উপলক্ষে, পুরো ফেব্রুয়ারি মাস জুড়ে থাকবে থাকবে আমাদের বিভিন্ন প্রোডাক্টে ৭০% পর্যন্ত ডিস্কাউন্ট, ফ্রি গিফট সহ আরো অনেক কিছু।
+
+আজকে থাকছে থাই লেমন সিডাম, পুরো বছর এটির রঙ একই থাকবে। পট সহ, ডিস্কাউন্ট দিয়ে প্রাইস মাত্র ১২১ টাকা !!। 
+
+অর্ডার প্রসেসঃ
+এই লিঙ্কে http://bit.ly/nilimorder গিয়ে ফর্মটি পূরণ করুন, আপনার অর্ডারটি কনফার্ম করে জানিয়ে দেয়া হবে।
+#nilimshop #nilim #indoorplant</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-19T03:10:04.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_490762118539075</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/490762118539075</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">আকাশে বহিছে প্রেম, নয়নে লাগিল নেশা/কারা যে ডাকিল পিছে! বসন্ত এসে গেছে।' একদিকে ঋতুরাজ বসন্তের আগমন, অন্যদিকে ভালোবাসার রং- এই দুই মিলে প্রকৃতির প্রতিটি পরতে পরতে আজ ছড়িয়ে পড়েছে এক মোহময় সুবাস, যার আবেশে প্রত্যেক মানুষের মনে বেজে উঠেছে ভালোবাসার বারতা।
+
+সবার জন্য শুভেচ্ছা এবং ভালোবাসা রইল &lt;3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-14T04:33:11.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">313090406306248_490055245276429</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">https://www.facebook.com/nilimshop/posts/490055245276429</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ইনবক্সে ছবি দুটি পাঠিয়েছেন Julie JB আপু।
+এত বড় অর্কিড যখন সুন্দরভাবে হাতে পৌঁছে যায় তখন সত্যিই অনেক ভালোলাগা কাজ করে।
+
+#nilimshop</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Photo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2020-02-13T04:41:11.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String"> </Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>
