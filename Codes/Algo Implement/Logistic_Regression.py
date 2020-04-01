@@ -28,8 +28,8 @@ logreg.fit(X_train, y_train)
 y_pred = logreg.predict(X_test)
 
 # Compute and print the confusion matrix and classification report
-print(confusion_matrix(y_test, y_pred).ravel())
-print(classification_report(y_test, y_pred))
+print('Comfusion matrix :', confusion_matrix(y_test, y_pred).ravel())
+print('Classification report :',classification_report(y_test, y_pred))
 
 # Compute predicted probabilities: y_pred_prob
 y_pred_prob = logreg.predict_proba(X_test)[:,1]
