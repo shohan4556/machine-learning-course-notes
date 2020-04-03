@@ -13,6 +13,7 @@ df = pd.read_csv('Codes/Algo Implement/diabetes.csv')
 X = df.drop(columns='diabetes')
 y = df['diabetes']
 
+#print(df.head())
 #y = y.reshape(-1,1)
 
 #print(y)
